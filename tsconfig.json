@@ -1,0 +1,18 @@
+{
+  // "exclude": ["node_modules", "src/**/*.test.ts", "**/__mocks__/**", "test"],
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es6",
+    "lib": ["es2020"],
+    "strict": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "noEmit": true
+  }
+}
